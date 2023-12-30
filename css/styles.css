@@ -34,9 +34,12 @@ img {
 
 .container {
   width: 320px;
-  margin: 0 auto;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -548,10 +551,10 @@ a {
 }
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .team-social-link-icon {
-  fill: currentColor;
+  fill: #f4f4fd;
 }
 .team-list {
   display: flex;
